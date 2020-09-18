@@ -1,0 +1,23 @@
+body {
+  position: relative;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  min-height: 5rem;
+  background-color: #333138;
+  color: #fafafa;
+  font-size: 1.5rem;
+  text-align: center;
+
+  a {
+    color: #fafafa;
+    transition: all .3s;
+    
+    &:hover,
+    &:focus {
+      color: #e08d45;
+    }
+  }
+}
